@@ -11,10 +11,11 @@ body {
   padding: 20px;
   margin: 0;
   border: 0;
+  gap:40px;
 
   display: flex;
   flex: 1;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -22,12 +23,13 @@ body {
   font-size: 24px;
   color: #F9FAF8;
   font-weight:700;
+  margin-left: 100px;
 }
 
 .links {
   list-style: none;
   display: flex;
-  margin: 0;
+  margin: 0 135px 0 0;
 }
 
 li {
@@ -43,27 +45,47 @@ a {
 
 
 .section-one {
-  background: #1F2937;
-  padding: 30px 45px;
+  background: rgb(31, 41, 55);
+  padding: 45px 45px;
   gap: 40px;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center; 
 }
 
 .left-one {
-  max-width: 400px;
+  max-width: 500px;
+  margin-left: 75px;
+
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
 }
 
 .hero {
-  font-size: 48px;
+  font-size: 56px;
   font-weight: 900;
   color: #F9FAF8;
 }
 
+.hero-subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 25px 0px;
+}
 
 img {
   width: 500px;
   height: 400px;
+  margin: 0 90px 0 0;
+}
+
+button {
+  background: #3882F6;
+  color: white;
+  max-width: 75px;
+  height: 30px;
+  border-radius: 10px;
+  border: 0px;
 }
