@@ -81,17 +81,13 @@ a {
   margin: 0 90px 0 0;
 }
 
-button {
+#sign-up-one {
   background: #3882F6;
   color: white;
   max-width: 75px;
   height: 30px;
   border-radius: 10px;
   border: 0px;
-}
-
-.footer {
-  height: 1000px;
 }
 
 
@@ -165,4 +161,49 @@ button {
   text-align: end;
   padding-right: 50px;
   font-weight: 700;
+}
+
+
+.section-four {
+  padding: 65px 150px;
+}
+
+#call-to-action {
+  background-color: #3882F6;
+  border-radius: 10px;
+  padding: 20px 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cta {
+  margin: 5px 0px;
+  color: #E5E7EB;
+}
+
+#cta-button {
+  background: #3882F6;
+  color: white;
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+  border: 2px solid white;
+  margin-right: 20px;
+}
+
+
+.footer {
+  height: 50px;
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-text {
+  text-align: center;
+  color: #E5E7EB;
+  font-size: 12px;
 }
