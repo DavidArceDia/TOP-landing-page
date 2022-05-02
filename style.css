@@ -108,6 +108,7 @@ a {
   display: flex;
   justify-content: center;
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 .left-container,
@@ -147,7 +148,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 60px 250px;
+  padding: 60px 0;
+}
+
+.text-three {
+  max-width: 550px;
+  padding: 15px;
 }
 
 .text-three-quote {
@@ -165,21 +171,26 @@ a {
 
 
 .section-four {
-  padding: 65px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #call-to-action {
   background-color: #3882F6;
   border-radius: 10px;
-  padding: 20px 60px;
+  padding: 20px 40px 20px 60px;
+  margin: 40px 40px;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  min-width: 155px;
 }
 
 .cta {
-  margin: 5px 0px;
+  margin: 5px 20px 0 0 ;
   color: #E5E7EB;
 }
 
@@ -190,7 +201,7 @@ a {
   width: 120px;
   border-radius: 10px;
   border: 2px solid white;
-  margin-right: 20px;
+  margin: 15px 40px 15px 0;
 }
 
 
